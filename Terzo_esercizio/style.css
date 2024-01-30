@@ -1,0 +1,51 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .main {
+    width: 400px;
+    height: 500px;
+    padding: 50px;
+  }
+  .card {
+    width: 300px;
+    height: 400px;
+    border: 3px solid rgb(190, 0, 0);
+    border-radius: 25px;
+    background-image: url(assets/Meteora.jpg);
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.5);
+    position: relative;
+
+  }
+  .save {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background-color: red;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 15px;
+  }
+  .label, 
+  .share, 
+  .more {
+    /* position: absolute; */
+    background-color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    position: absolute;
+    border-radius: 25px;
+    opacity: 0.8;
+    cursor: pointer;
+    bottom: 15px;
+  }
+  .label {
+    left: 15px;
+  }
+  .share {
+    right: 80px;
+  }
+  .more {
+    right: 20px;
+  }
