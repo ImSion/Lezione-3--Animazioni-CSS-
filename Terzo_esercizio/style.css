@@ -32,13 +32,14 @@
   .save {
     position: absolute;
     right: 20px;
-    top: -40px;
+    top: -45px;
     background-color: red;
     color: #fff;
     border-radius: 25px;
     padding: 10px 15px;
     cursor: pointer;
     transition: top 0.2s ease-in-out;
+    box-shadow: 3px 3px 7px white;
   }
  .bottom {
     /* position: absolute; */
@@ -63,12 +64,15 @@
     left: 10px;
     padding: 10px 15px;
     width: max-content;
+    box-shadow: 3px 3px 7px red;
   }
   .share {
     left: 160px;
     padding: 10px 15px;
+    box-shadow: 3px 3px 7px red;
   }
   .more {
     left: 240px;
     padding: 10px 15px;
+    box-shadow: 3px 3px 7px red;
   }
