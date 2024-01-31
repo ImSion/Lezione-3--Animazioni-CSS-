@@ -24,7 +24,7 @@
     overflow: hidden;
   }
 .card:hover .save {
-  top: 10px;
+  top: 7px;
 }
 .card:hover .bottom {
   bottom: 5px;
@@ -61,18 +61,18 @@
     margin-right: 7px;
   }
   .label {
-    left: 10px;
+    left: 5px;
     padding: 10px 15px;
     width: max-content;
     box-shadow: 3px 3px 7px red;
   }
   .share {
-    left: 160px;
+    left: 165px;
     padding: 10px 15px;
     box-shadow: 3px 3px 7px red;
   }
   .more {
-    left: 240px;
+    left: 245px;
     padding: 10px 15px;
     box-shadow: 3px 3px 7px red;
   }
