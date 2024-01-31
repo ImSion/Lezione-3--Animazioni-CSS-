@@ -24,12 +24,10 @@
     overflow: hidden;
   }
 .card:hover .save {
-  top: 20px;
+  top: 10px;
 }
-.card:hover .label , 
-.card:hover .share , 
-.card:hover .more {
-  bottom: 10px;
+.card:hover .bottom {
+  bottom: 5px;
 }
   .save {
     position: absolute;
@@ -39,34 +37,32 @@
     color: #fff;
     border-radius: 25px;
     padding: 10px 15px;
+    cursor: pointer;
     transition: top 0.2s ease-in-out;
   }
-  .label, 
-  .share, 
-  .more {
+ .bottom {
     /* position: absolute; */
     background-color: rgb(255, 255, 255);
-    padding: 10px 15px;
     position: absolute;
     border-radius: 25px;
     opacity: 0.8;
     cursor: pointer;
-    bottom: -40px;
+    bottom: -30px;
     transition: bottom 0.2s ease-in-out;
   }
-
-  .label:hover ,
-  .share:hover ,
-  .more:hover {
+  .bottom:hover {
     opacity: 1;
   }
-
   .label {
-    left: 15px;
+    left: 10px;
+    padding: 10px 15px;
+    width: max-content;
   }
   .share {
-    right: 80px;
+    left: 160px;
+    padding: 10px 15px;
   }
   .more {
-    right: 20px;
+    left: 240px;
+    padding: 10px 15px;
   }
