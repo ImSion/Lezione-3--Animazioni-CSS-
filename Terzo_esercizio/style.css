@@ -53,6 +53,12 @@
   .bottom:hover {
     opacity: 1;
   }
+  .img {
+    height: 16px;
+    display: inline-block;
+    width: max-content;
+    margin-right: 7px;
+  }
   .label {
     left: 10px;
     padding: 10px 15px;
