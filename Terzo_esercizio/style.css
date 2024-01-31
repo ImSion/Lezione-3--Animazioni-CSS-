@@ -3,10 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
   }
   .main {
-    width: 400px;
-    height: 500px;
     padding: 50px;
   }
   .card {
@@ -21,16 +20,26 @@
     background-color: rgb(0, 0, 0);
     box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.5);
     position: relative;
-
+    /* overflow:hidden tutto quello che sarà oltre i confini della card sarà nascosto */
+    overflow: hidden;
   }
+.card:hover .save {
+  top: 20px;
+}
+.card:hover .label , 
+.card:hover .share , 
+.card:hover .more {
+  bottom: 10px;
+}
   .save {
     position: absolute;
     right: 20px;
-    top: 10px;
+    top: -40px;
     background-color: red;
     color: #fff;
     border-radius: 25px;
     padding: 10px 15px;
+    transition: top 0.2s ease-in-out;
   }
   .label, 
   .share, 
@@ -42,8 +51,16 @@
     border-radius: 25px;
     opacity: 0.8;
     cursor: pointer;
-    bottom: 15px;
+    bottom: -40px;
+    transition: bottom 0.2s ease-in-out;
   }
+
+  .label:hover ,
+  .share:hover ,
+  .more:hover {
+    opacity: 1;
+  }
+
   .label {
     left: 15px;
   }
